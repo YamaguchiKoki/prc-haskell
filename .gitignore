@@ -1,0 +1,19 @@
+# Haskellのビルド生成物を無視
+
+# Cabalのビルド生成物
+dist/
+dist-newstyle/
+
+# Stackのビルド生成物
+.stack-work/
+
+# 実行ファイル（ビルド時に生成されるバイナリ）
+*.hi
+*.o
+*.dyn_o
+*.dyn_hi
+my-executable  # 自分のプロジェクト名に合わせて変更
+
+# その他、一般的なエディタやIDEの設定ファイル
+.vscode/
+.idea/
